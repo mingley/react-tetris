@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Stage from './Stage';
 import Display from './Display';
 import StartButton from './StartButton';
+import {createStage} from '../gameHelpers';
 
 //hooks
 import { usePlayer } from '../hooks/usePlayer';
